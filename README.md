@@ -38,6 +38,8 @@ gulp.task('scripts', function() {
 
 This will pass all the files into `node-webkit-builder`, and generate the `node-webkit` app.
 
+It's better you use [node-webkit-builder](https://github.com/mllrsohn/node-webkit-builder) directly, since nothing special here but a simple wrapper.
+
 ## Options
 
 All the options will be passed into `node-webkit-builder` directly except `files`.
