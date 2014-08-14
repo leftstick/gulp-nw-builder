@@ -11,7 +11,6 @@ require('mocha');
 describe('gulp-node-webkit-builder', function() {
 
     it('should work in any mode', function(done) {
-        console.log('will be finished later on');
         done();
     });
 
