@@ -11,7 +11,7 @@
     "gulpplugin"
   ],
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --reporter nyan"
   },
   "author": "Howard.Zuo",
   "license": "MIT",
