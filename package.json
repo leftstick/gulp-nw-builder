@@ -4,28 +4,28 @@
   "description": "Help developers build their own node-webkit apps for different platforms such as win, mac and linux with gulp.",
   "main": "index.js",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/leftstick/gulp-node-webkit-builder.git"
+    "type": "git",
+    "url": "https://github.com/leftstick/gulp-node-webkit-builder.git"
   },
   "keywords": [
-      "gulpplugin"
+    "gulpplugin"
   ],
   "scripts": {
-      "test": "mocha"
+    "test": "mocha"
   },
   "author": "Howard.Zuo",
   "license": "MIT",
   "bugs": {
-      "url": "https://github.com/leftstick/gulp-node-webkit-builder/issues"
+    "url": "https://github.com/leftstick/gulp-node-webkit-builder/issues"
   },
   "homepage": "https://github.com/leftstick/gulp-node-webkit-builder",
   "dependencies": {
-      "gulp-util": "^2.2.20",
-      "node-webkit-builder": "0.0.3",
-      "through2": "^0.5.1"
+    "gulp-util": "^3.0.0",
+    "node-webkit-builder": "^0.1.1",
+    "through2": "^0.6.1"
   },
   "devDependencies": {
-      "gulp": "^3.8.6",
-      "mocha": "^1.20.1"
+    "gulp": "^3.8.7",
+    "mocha": "^1.21.4"
   }
 }

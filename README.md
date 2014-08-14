@@ -1,8 +1,8 @@
 gulp-node-webkit-builder
 ========================
 
-![](http://img.shields.io/badge/npm_module-v1.0.0-green.svg?style=flat)  ![](http://img.shields.io/badge/dependencies-latest-yellowgreen.svg?style=flat)
-![](http://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)
+![](http://img.shields.io/badge/npm_module-v1.0.0-green.svg?style=flat)  ![][david-url]
+![][travis-url]
 
 Help developers build their own node-webkit apps for different platforms such as win, mac and linux with gulp.
 ## Information
@@ -50,3 +50,7 @@ For detail description, see: [Options](https://github.com/mllrsohn/node-webkit-b
 ## LICENSE
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
+
+
+[travis-url]:https://api.travis-ci.org/leftstick/gulp-node-webkit-builder.svg?branch=master
+[david-url]:https://david-dm.org/leftstick/gulp-node-webkit-builder.png
