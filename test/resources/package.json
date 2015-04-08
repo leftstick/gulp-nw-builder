@@ -1,0 +1,15 @@
+{
+  "name": "test",
+  "main": "index.html",
+  "description": "TEST",
+  "author": "Howard.Zuo",
+  "version": "1.1.0",
+  "window": {
+    "title": "TEST",
+    "toolbar": true,
+    "frame": true,
+    "position": "center",
+    "as_desktop": true,
+    "resizable": true
+  }
+}

@@ -29,9 +29,9 @@ var gulpNodeWebkitBuilder = function(opts) {
         nw.on('log', gutil.log);
 
         nw.build().then(function() {
-                gutil.log('all done!');
-                cb();
-            }).catch(function(err) {
+            gutil.log('all done!');
+            cb();
+        }).catch(function(err) {
             _this.emit('error', new PluginError(PLUGIN_NAME, 'Error occured while building app!'));
             return cb();
         });
@@ -39,6 +39,7 @@ var gulpNodeWebkitBuilder = function(opts) {
     });
 
     // returning the file stream
+    stream.resume();
     return stream;
 };
 

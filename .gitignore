@@ -2,3 +2,6 @@
 
 # Dependency
 node_modules
+
+build/
+cache/

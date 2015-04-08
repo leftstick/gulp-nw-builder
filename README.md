@@ -1,7 +1,7 @@
 gulp-node-webkit-builder
 ========================
 
-![](http://img.shields.io/badge/npm_module-v1.0.0-green.svg?style=flat)  ![][david-url]
+![](http://img.shields.io/badge/npm_module-v1.1.0-green.svg?style=flat)  ![][david-url]
 ![][travis-url]
 
 Help developers build their own node-webkit apps for different platforms such as win, mac and linux with gulp.
@@ -30,7 +30,7 @@ gulp.task('scripts', function() {
   return gulp.src(['./resources/**/*'])
     .pipe(builder({
         version: 'v0.9.2',
-        platforms: ['win']
+        platforms: ['win64']
      }));
 });
 

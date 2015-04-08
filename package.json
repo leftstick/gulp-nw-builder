@@ -1,6 +1,6 @@
 {
   "name": "gulp-node-webkit-builder",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Help developers build their own node-webkit apps for different platforms such as win, mac and linux with gulp.",
   "main": "index.js",
   "repository": {
@@ -11,7 +11,7 @@
     "gulpplugin"
   ],
   "scripts": {
-    "test": "mocha --reporter nyan"
+    "test": "mocha --reporter nyan -t 500000"
   },
   "author": "Howard.Zuo",
   "license": "MIT",
@@ -20,12 +20,12 @@
   },
   "homepage": "https://github.com/leftstick/gulp-node-webkit-builder",
   "dependencies": {
-    "gulp-util": "^3.0.0",
-    "node-webkit-builder": "^0.1.1",
-    "through2": "^0.6.1"
+    "gulp-util": "^3.0.4",
+    "node-webkit-builder": "^1.0.11",
+    "through2": "^0.6.3"
   },
   "devDependencies": {
-    "gulp": "^3.8.7",
-    "mocha": "^1.21.4"
+    "gulp": "^3.8.11",
+    "mocha": "^2.2.3"
   }
 }
