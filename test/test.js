@@ -14,8 +14,10 @@ describe('gulp-node-webkit-builder', function() {
 
         gulp.src(['test/resources/*.*'])
             .pipe(builder({
-                version: 'v0.12.0',
-                platforms: ['osx64']
+                version: 'v0.12.3',
+                platforms: [
+                    'osx64'
+                ]
             }))
             .on('end', function() {
                 done();
