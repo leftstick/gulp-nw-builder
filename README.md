@@ -1,19 +1,19 @@
 gulp-node-webkit-builder
 ========================
 
-![](http://img.shields.io/badge/npm_module-v1.2.0-green.svg?style=flat)  ![][david-url]
+![](http://img.shields.io/badge/npm_module-v1.2.1-green.svg?style=flat)  ![][david-url]
 ![][travis-url]
 
-Help developers build their own node-webkit apps for different platforms such as win, mac and linux with gulp.
+Help developers build their own `nw.js` apps for different platforms such as win, mac and linux with gulp.
 ## Information
 
 <table>
-<tr> 
+<tr>
 <td>Package</td><td>gulp-node-webkit-builder</td>
 </tr>
 <tr>
 <td>Description</td>
-<td>A simple wrapper for `node-webkit-builder`</td>
+<td>A simple wrapper for `nw-builder`</td>
 </tr>
 <tr>
 <td>Node Version</td>
@@ -36,15 +36,15 @@ gulp.task('scripts', function() {
 
 ```
 
-This will pass all the files into `node-webkit-builder`, and generate the `node-webkit` app.
+This will pass all the files into `nw-builder`, and generate the `nw.js` app.
 
-It's better you use [node-webkit-builder](https://github.com/mllrsohn/node-webkit-builder) directly, since nothing special here but a simple wrapper.
+It's better you use [nw-builder](https://github.com/nwjs/nw-builder) directly, since nothing special here but a simple wrapper.
 
 ## Options
 
-All the options will be passed into `node-webkit-builder` directly except `files`.
+All the options will be passed into `nw-builder` directly except `files`.
 
-For detail description, see: [Options](https://github.com/mllrsohn/node-webkit-builder/blob/master/README.md)
+For detail description, see: [Options](https://github.com/nwjs/nw-builder/blob/master/README.md)
 
 
 ## LICENSE
