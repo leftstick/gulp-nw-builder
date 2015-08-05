@@ -1,4 +1,4 @@
-var NwBuilder = require('node-webkit-builder');
+var NwBuilder = require('nw-builder');
 var through = require('through2');
 var gutil = require('gulp-util');
 var PluginError = gutil.PluginError;
