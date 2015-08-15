@@ -8,7 +8,7 @@ var gulp = require('gulp');
 
 require('mocha');
 
-describe('gulp-node-webkit-builder', function() {
+describe('gulp-nw-builder', function() {
 
     it('default test', function(done) {
 

@@ -3,7 +3,7 @@ var through = require('through2');
 var gutil = require('gulp-util');
 var PluginError = gutil.PluginError;
 
-var PLUGIN_NAME = 'gulp-node-webkit-builder';
+var PLUGIN_NAME = 'gulp-nw-builder';
 
 
 var gulpNodeWebkitBuilder = function(opts) {

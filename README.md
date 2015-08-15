@@ -1,4 +1,4 @@
-gulp-node-webkit-builder
+gulp-nw-builder
 ========================
 
 ![](http://img.shields.io/badge/npm_module-v1.2.1-green.svg?style=flat)  ![][david-url]
@@ -9,7 +9,7 @@ Help developers build their own `nw.js` apps for different platforms such as win
 
 <table>
 <tr>
-<td>Package</td><td>gulp-node-webkit-builder</td>
+<td>Package</td><td>gulp-nw-builder</td>
 </tr>
 <tr>
 <td>Description</td>
@@ -24,7 +24,7 @@ Help developers build their own `nw.js` apps for different platforms such as win
 ## Usage
 
 ```javascript
-var builder = require('gulp-node-webkit-builder');
+var builder = require('gulp-nw-builder');
 
 gulp.task('scripts', function() {
   return gulp.src(['./resources/**/*'])
@@ -52,5 +52,5 @@ For detail description, see: [Options](https://github.com/nwjs/nw-builder/blob/m
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
 
 
-[travis-url]:https://api.travis-ci.org/leftstick/gulp-node-webkit-builder.svg?branch=master
-[david-url]:https://david-dm.org/leftstick/gulp-node-webkit-builder.png
+[travis-url]:https://api.travis-ci.org/leftstick/gulp-nw-builder.svg?branch=master
+[david-url]:https://david-dm.org/leftstick/gulp-nw-builder.png

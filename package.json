@@ -1,11 +1,11 @@
 {
-  "name": "gulp-node-webkit-builder",
+  "name": "gulp-nw-builder",
   "version": "1.2.1",
-  "description": "Help developers build their own node-webkit apps for different platforms such as win, mac and linux with gulp.",
+  "description": "Help developers build their own nw.js apps for different platforms such as win, mac and linux with gulp.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/leftstick/gulp-node-webkit-builder.git"
+    "url": "https://github.com/leftstick/gulp-nw-builder.git"
   },
   "keywords": [
     "gulpplugin"
@@ -16,9 +16,9 @@
   "author": "Howard.Zuo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leftstick/gulp-node-webkit-builder/issues"
+    "url": "https://github.com/leftstick/gulp-nw-builder/issues"
   },
-  "homepage": "https://github.com/leftstick/gulp-node-webkit-builder",
+  "homepage": "https://github.com/leftstick/gulp-nw-builder",
   "dependencies": {
     "gulp-util": "^3.0.6",
     "nw-builder": "^2.0.2",
