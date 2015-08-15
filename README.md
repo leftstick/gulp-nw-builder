@@ -1,7 +1,8 @@
 gulp-nw-builder
 ========================
 
-![](http://img.shields.io/badge/npm_module-v1.2.1-green.svg?style=flat)  ![][david-url]
+[![NPM version][npm-image]][npm-url]
+![][david-url]
 ![][travis-url]
 
 Help developers build their own `nw.js` apps for different platforms such as win, mac and linux with gulp.
@@ -51,6 +52,7 @@ For detail description, see: [Options](https://github.com/nwjs/nw-builder/blob/m
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
 
-
+[npm-url]: https://npmjs.org/package/gulp-nw-builder
+[npm-image]: https://badge.fury.io/js/gulp-nw-builder.png
 [travis-url]:https://api.travis-ci.org/leftstick/gulp-nw-builder.svg?branch=master
 [david-url]:https://david-dm.org/leftstick/gulp-nw-builder.png
