@@ -26,10 +26,14 @@ var gulpNodeWebkitBuilder = function(opts) {
 
         var nw = new NwBuilder(options);
 
-        nw.on('log', gutil.log);
+        if(!options.quiet) {
+            nw.on('log', gutil.log);
+        }
 
         nw.build().then(function() {
-            gutil.log('all done!');
+            if(!options.quiet) {
+                gutil.log('all done!');
+            }
             cb();
         }).catch(function(err) {
             _this.emit('error', new PluginError(PLUGIN_NAME, 'Error occured while building app!'));
