@@ -47,6 +47,7 @@ All the options will be passed into `nw-builder` directly except `files`.
 
 For detail description, see: [Options](https://github.com/nwjs/nw-builder/blob/master/README.md)
 
+Additionally, `quiet: true` will disable all logging to gulp.
 
 ## LICENSE
 
