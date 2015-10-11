@@ -36,7 +36,7 @@ var gulpNodeWebkitBuilder = function(opts) {
             }
             cb();
         }).catch(function(err) {
-            _this.emit('error', new PluginError(PLUGIN_NAME, 'Error occured while building app!'));
+            _this.emit('error', new PluginError(PLUGIN_NAME, 'Error occurred while building app: '+err));
             return cb();
         });
 
