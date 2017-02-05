@@ -1,8 +1,11 @@
 {
   "name": "gulp-nw-builder",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "description": "Help developers build their own nw.js apps for different platforms such as win, mac and linux with gulp.",
   "main": "index.js",
+  "engines" : {
+    "node" : ">=7.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/leftstick/gulp-nw-builder.git"
@@ -11,7 +14,7 @@
     "gulpplugin"
   ],
   "scripts": {
-    "test": "mocha --reporter nyan -t 500000"
+    "test": "mocha --reporter nyan -t 5000000"
   },
   "author": "Howard.Zuo",
   "license": "MIT",
@@ -20,12 +23,12 @@
   },
   "homepage": "https://github.com/leftstick/gulp-nw-builder",
   "dependencies": {
-    "gulp-util": "^3.0.6",
-    "nw-builder": "^2.0.2",
-    "through2": "^2.0.0"
+    "gulp-util": "^3.0.8",
+    "nw-builder": "^3.1.3",
+    "through2": "^2.0.3"
   },
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "mocha": "^2.3.3"
+    "gulp": "^3.9.1",
+    "mocha": "^3.2.0"
   }
 }

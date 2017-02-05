@@ -1,28 +1,21 @@
-/* jshint node: true */
-/* global describe, it */
+const builder = require('../');
+const gulp = require('gulp');
 
-'use strict';
+describe('gulp-nw-builder', () => {
 
-var builder = require('../');
-var gulp = require('gulp');
-
-require('mocha');
-
-describe('gulp-nw-builder', function() {
-
-    it('default test', function(done) {
+    it('default test', done => {
 
         gulp.src(['test/resources/*.*'])
             .pipe(builder({
-                version: 'v0.12.3',
+                version: '0.20.1',
                 platforms: [
                     'osx64'
                 ]
             }))
-            .on('end', function() {
+            .on('end', () => {
                 done();
             })
-            .on('error', function(err) {
+            .on('error', err => {
                 done(err);
             });
     });
