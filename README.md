@@ -18,7 +18,7 @@ Help developers build their own `nw.js` apps for different platforms such as win
 </tr>
 <tr>
 <td>Node Version</td>
-<td>>= 0.12</td>
+<td>>= 7.0</td>
 </tr>
 </table>
 
@@ -30,8 +30,8 @@ var builder = require('gulp-nw-builder');
 gulp.task('scripts', function() {
   return gulp.src(['./resources/**/*'])
     .pipe(builder({
-        version: 'v0.12.2',
-        platforms: ['win64']
+        version: '0.20.1',
+        platforms: ['osx64']
      }));
 });
 
